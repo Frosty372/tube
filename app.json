@@ -1,10 +1,18 @@
 {
   "name": "inline-tube-mate",
   "description": "Inline YouTube-Dl bot. Create your fork now",
-  "keywords": ["telegram", "inline", "YouTube", "downloader", "bot", "open", "source"],
-  "logo": "https://img1.pnghut.com/9/16/7/xShRuCnGPS/social-media-youtube-facebook-rectangle-brand.jpg",
+  "keywords": [
+  "telegram", 
+  "inline", 
+  "YouTube", 
+  "downloader", 
+  "bot", 
+  "open", 
+  "source"
+  ],
   "website": "https://github.com/Frosty372/tube",
   "repository": "https://github.com/Frosty372/tube",
+  "logo": "https://img1.pnghut.com/9/16/7/xShRuCnGPS/social-media-youtube-facebook-rectangle-brand.jpg",
   "env": {
         "APP_ID": 16599023,
         "API_HASH": a3bf3a9aea5dfeeae5312eb767e3e8bc,
@@ -14,10 +22,16 @@
         "SUDO_USERS": 1104271235,
         "ENV": Anything
   },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
   "addons": [
     {
     "plan": "heroku-postgresql",
-      "options": {
+    "options": {
         "version": "12"
       }
     }
@@ -30,10 +44,10 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     }
   ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
+  "environments": {
+    "test": {
+      "scripts": {
+      }
     }
   }
 }
