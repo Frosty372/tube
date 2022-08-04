@@ -4,15 +4,15 @@
   "keywords": ["telegram", "inline", "YouTube", "downloader", "bot", "open", "source"],
   "logo": "https://img1.pnghut.com/9/16/7/xShRuCnGPS/social-media-youtube-facebook-rectangle-brand.jpg",
   "website": "https://github.com/YOUR-REPOSITORY-NAME",
-  "repository": "https://github.com/Your-Fork-URL",
+  "repository": "https://github.com/Frosty372/tube",
   "env": {
-        "APP_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
-        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
-        "TG_BOT_TOKEN": {"description": "Get Bot Token From @BotFather Bot", "required": true},
-        "AUTH_USERS": {"description": "List of Authorized user ids separated by space", "required":  false},
+        "APP_ID": 16599023,
+        "API_HASH": a3bf3a9aea5dfeeae5312eb767e3e8bc,
+        "TG_BOT_TOKEN": 5599276590:AAGIG7slpAeeL0a2LqSH4w79PyecP6CooEA,
+        "AUTH_USERS": 1104271235,
         "FORCE_SUB_CHAT": {"description": "Force subscribe channel / group id starting with -100", "required":  false},
-        "SUDO_USERS": {"description": "List of super user ids for broadcast. separated by space", "required":  true},
-        "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
+        "SUDO_USERS": 1104271235,
+        "ENV": Anything
   },
   "addons": [
     {
